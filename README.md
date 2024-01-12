@@ -42,6 +42,29 @@ This project demonstrates the implementation of model parallelism techniques in 
 - Techniques demonstrated include manual layer assignment to different computational resources, such as GPUs or CPU cores, and managing data flow between these resources.
 - The use of MXNet and TensorFlow frameworks highlights different approaches to model parallelism in practical scenarios.
 
+## OpenMP for Parallel Processing in Multicore Processors
+
+In addition to the use of MXNet and TensorFlow for model parallelism, this project also explores the utilization of OpenMP for effective parallel processing in multicore processor environments. The goal is to enhance computational efficiency by parallelizing operations that are otherwise executed serially.
+
+### Experimentation with OpenMP
+
+- **Description**: A part of the project involves experimenting with OpenMP to benchmark its performance in parallel processing scenarios. 
+- **Key Components**:
+  - **Serial Execution**: Baseline performance measurement with serial computation.
+  - **Parallel Execution using OpenMP**: Implementing OpenMP to parallelize the computation and compare it against the serial execution.
+  - **Optimized Parallel Execution**: Further optimization in parallel processing using advanced OpenMP techniques.
+
+For a detailed comparison and insights into the experimentation with OpenMP, refer to the following GitHub repository: [Parallel Computing with OpenMP](https://github.com/mdalmaruf/ParallelComputingOpenMP.git)
+
+This component of the project highlights the significance of parallel processing in modern computing environments, especially when dealing with large-scale data and intensive computational tasks. It provides valuable benchmarks and insights into the efficiency gains achievable with parallelization.
+
+## Remarks
+
+The combination of different parallel computing techniques, from model parallelism in machine learning to multicore processing with OpenMP, represents a comprehensive approach to optimizing computational tasks in various scenarios. This project not only demonstrates the practical application of these techniques but also serves as a foundation for future research and development in the field of parallel computing.
+
+
+
+
 ## Future Scope
 
 - Explore automated approaches for model partitioning and resource allocation.
